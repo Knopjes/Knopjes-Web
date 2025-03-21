@@ -1,0 +1,17 @@
+localStorage tsten
+
+
+Test of de keuze is opgeslagen in localStorage
+Voer in de console deze opdracht in:
+
+console.log(localStorage.getItem("policyAccepted"));
+
+Wat krijg je als resultaat ?
+
+    Waarde	Betekenis
+"true"	De gebruiker heeft akkoord geklikt.
+null	De gebruiker heeft nog niet gekozen of de data is gereset.
+
+🔹 Wil je localStorage resetten ? Voer dit in de console in:
+
+localStorage.removeItem("policyAccepted");
