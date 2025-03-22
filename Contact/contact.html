@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Knopjes web - Neem contact met ons op.">
+    <meta name="keywords" content="Knopjes contact, contact, vragen, formulier, contactformulier">
+    <meta name="author" content="Knopjes">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="contact.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="../index.html"><img
+                    src="https://www.dropbox.com/scl/fi/v0tw2fx937huj60bkaa56/Logo-Knopjes-blauwe-achtergrond.png?rlkey=c49sf30adndqqyo7371wa6myc&st=kc0dx6sg&raw=1"
+                    alt="Logo"></a>
+        </div>
+        <div class="nav-links">
+            <a href="../index/index.html">Home</a>
+
+            <div class="dropdown">
+                <a href="../mijn-nummers/mijn-nummers.html">Mijn Nummers</a>
+                <div class="dropdown-content">
+                    <a href="../mijn-nummers/mijn-nummers.html#onze-2024">Onze 2024</a>
+                    <a href="../mijn-nummers/mijn-nummers.html#No EP Songs">No EP Nummers</a>
+                </div>
+            </div>
+
+            <a href="../Songteksten/songteksten.html">Songteksten</a>
+            <a href="../over mij/over-mij.html">Over mij</a>
+
+            <div class="dropdown overig">
+                <a href="#">Overig</a>
+                <div class="dropdown-content">
+                    <a href="../beleid/auteursrechten.html">Auteursrechten & Licenties Beleid</a>
+                    <a href="../beleid/Privacy- en Voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a>
+                    <a href="../beleid/privacybeleid.html">Privacybeleid</a>
+                    <a href="../contact/contact.html">Contact</a>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+    <h1>Contact</h1>
+
+    <div class="contact-container">
+        <p>Heb je vragen of wil je contact opnemen? Vul dan het onderstaande formulier in.</p>
+
+        <div class="form-wrapper">
+            <form id="contact-form" action="send_mail.php" method="POST">
+                <label for="name">Naam:*</label>
+                <input type="text" id="name" name="name" placeholder="Jouw naam" required>
+
+                <label for="email">E-mailadres:*</label>
+                <input type="email" id="email" name="email" placeholder="Jouw e-mailadres" required>
+
+                <label for="subject">Onderwerp:*</label>
+                <input type="text" id="subject" name="subject" placeholder="Onderwerp" required>
+
+                <label for="message">Bericht:*</label>
+                <textarea id="message" name="message" placeholder="Jouw bericht..." required></textarea>
+
+                <div class="button-container">
+                    <button type="submit">Verstuur</button>
+                </div>
+            </form>
+
+        </div>
+
+        <p id="confirmation" class="hidden">Bedankt! Jouw bericht is verzonden.</p>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="../beleid/auteursrechten.html">Auteursrechten & Licenties Beleid</a>
+            <a href="../beleid/Privacy- en Voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a>
+            <a href="../beleid/privacybeleid.html">Privacybeleid</a>
+            <a href="../contact/contact.html">Contact</a>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2025 Knopjes web</span>
+            <span>Design by Knopjes</span>
+        </div>
+    </footer>
+
+    <!-- Beleids-popup -->
+    <div id="policy-popup">
+        <div class="popup-content">
+            <h2>Beleidsvoorwaarden</h2>
+            <p>Je moet akkoord gaan met het <a href="../Beleid/auteursrechten.html">Auteursrechten & Licenties
+                    Beleid</a>,
+                <a href="../beleid/Privacy- en Voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a> en
+                <a href="../beleid/privacybeleid.html">Privacybeleid</a>
+                om deze website te gebruiken.
+            </p>
+            <button id="accept-policy">Akkoord</button>
+            <button id="decline-policy">Weigeren</button>
+        </div>
+    </div>
+
+    <!-- Toevoegen van een wrapper om de inhoud van de website te blurren -->
+    <div id="website-content">
+        <!-- Jouw normale website-inhoud hier -->
+    </div>
+
+
+    </div>
+</body>
+
+</html>
