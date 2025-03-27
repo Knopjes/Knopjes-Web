@@ -121,7 +121,7 @@ footer {
     /* Donkerblauwe achtergrond */
     color: white;
     text-align: center;
-    padding: 30px 20px; /* ↑ boven/onder & ← rechts/links */
+    padding: 60px 20px; /* ↑ boven/onder & ← rechts/links */
     font-size: 16px;
     position: relative;
 }
