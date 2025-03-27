@@ -123,24 +123,24 @@ nav {
     /* Simuleert extra inhoud zodat je kunt scrollen */
 }
 
-/* Footer algemeen */
+/* 📌 Footer algemeen */
 footer {
     background-color: #041d5c;
-    /* Donkerblauwe achtergrond */
     color: white;
-    height: 60px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 100px 0; /* genoeg ruimte boven zwarte balk */
     font-size: 16px;
     position: relative;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* Links in de footer */
+/* 📌 Links in de footer */
 .footer-links {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .footer-links a {
@@ -152,15 +152,27 @@ footer {
 
 .footer-links a:hover {
     color: #b0c4ff;
-    /* Lichtere blauw bij hover */
 }
 
-/* Onderste zwarte balk - volledige breedte & onderaan */
+/* 🔁 Resetlink stijl */
+.reset-voorkeuren-link {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* 🖱️ Hover effect voor resetlink */
+.reset-voorkeuren-link:hover {
+    color: #b0c4ff;
+}
+
+/* 📌 Onderste zwarte balk */
 .footer-bottom {
     background-color: black;
     color: white;
     padding: 10px 20px;
-    /* Extra padding aan beide kanten */
     font-size: 14px;
     width: 100%;
     position: absolute;
@@ -170,10 +182,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    /* Zorgt ervoor dat de padding binnen de breedte blijft */
     overflow: hidden;
-    /* Voorkomt dat tekst buiten de balk komt */
 }
+
 
 /* 🔹 Pop-up stijl */
 #policy-popup {
