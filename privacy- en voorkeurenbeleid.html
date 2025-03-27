@@ -120,29 +120,19 @@
     </div>
 
 <footer>
-    <div class="footer-links">
-        <a href="auteursrechten.html">Auteursrechten & Licenties Beleid</a>
-        <a href="privacy- en voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a>
-        <a href="privacybeleid.html">Privacybeleid</a>
-        <a href="contact.html">Contact</a>
-    </div>
+        <div class="footer-links">
+            <a href="auteursrechten.html">Auteursrechten & Licenties Beleid</a>
+            <a href="privacy- en voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a>
+            <a href="privacybeleid.html">Privacybeleid</a>
+            <a href="contact.html">Contact</a>
+            <span class="reset-voorkeuren-link" onclick="resetVoorkeuren()">Voorkeuren wissen</span>
 
-    <span class="reset-voorkeuren-link" onclick="resetVoorkeuren()">Voorkeuren wissen</span>
-
-    <div class="footer-bottom">
-        <span>© 2025 Knopjes web</span>
-        <span>Design by Knopjes</span>
-    </div>
-
-    <script>
-        function resetVoorkeuren() {
-            localStorage.clear();
-            alert("Je voorkeuren zijn gewist.");
-            location.reload();
-        }
-    </script>
-</footer>
-
+        </div>
+        <div class="footer-bottom">
+            <span>© 2025 Knopjes web</span>
+            <span>Design by Knopjes</span>
+        </div>
+    </footer>
 </body>
 
 </html>
