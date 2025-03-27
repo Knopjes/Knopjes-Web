@@ -120,13 +120,13 @@ footer {
     background-color: #041d5c;
     color: white;
     text-align: center;
-    padding: 20px 0 80px 0; /* extra ruimte onderaan voor de reset-knop */
+    padding: 20px 0 60px 0; /* 🧩 minder blauw onderaan */
     font-size: 16px;
     position: relative;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* 📌 Links in de footer */
+/* 📎 Links in de footer */
 .footer-links {
     display: flex;
     justify-content: center;
@@ -146,29 +146,20 @@ footer {
     color: #b0c4ff;
 }
 
-/* 📌 Resetknop sectie */
-.reset-voorkeuren-container {
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #f4f4f4;
-    color: #041d5c;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-.reset-voorkeuren-container button {
-    background-color: #041d5c;
+/* ✅ Reset-link stijl */
+.reset-voorkeuren-link {
+    margin-top: 5px;
+    font-size: 14px;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    margin-top: 10px;
+    text-decoration: underline;
+    transition: color 0.3s ease;
 }
 
-.reset-voorkeuren-container button:hover {
-    background-color: #063a96;
+/* 🖱️ Hover-effect voor reset-link */
+.reset-voorkeuren-link:hover {
+    color: #b0c4ff;
 }
 
 /* 📌 Onderste zwarte balk */
@@ -187,6 +178,7 @@ footer {
     box-sizing: border-box;
     overflow: hidden;
 }
+
 
 
 /* 🔹 Pop-up stijl */
