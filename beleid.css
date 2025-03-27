@@ -116,7 +116,7 @@ h1 {
 }
 
 /* 📌 Footer algemeen */
-.footer {
+footer {
     background-color: #041d5c;
     color: white;
     text-align: center;
@@ -178,8 +178,6 @@ h1 {
     box-sizing: border-box;
     overflow: hidden;
 }
-
-
 
 /* 🔹 Pop-up stijl */
 #policy-popup {
