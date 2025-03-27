@@ -128,13 +128,13 @@ footer {
     background-color: #041d5c;
     color: white;
     text-align: center;
-    padding: 20px 0 100px 0; /* genoeg ruimte boven zwarte balk */
+    padding: 20px 0 60px 0; /* 🧩 minder blauw onderaan */
     font-size: 16px;
     position: relative;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* 📌 Links in de footer */
+/* 📎 Links in de footer */
 .footer-links {
     display: flex;
     justify-content: center;
@@ -154,16 +154,18 @@ footer {
     color: #b0c4ff;
 }
 
-/* 🔁 Resetlink stijl */
+/* ✅ Reset-link stijl */
 .reset-voorkeuren-link {
     margin-top: 5px;
     font-size: 14px;
     color: white;
+    font-weight: bold;
     cursor: pointer;
     text-decoration: underline;
+    transition: color 0.3s ease;
 }
 
-/* 🖱️ Hover effect voor resetlink */
+/* 🖱️ Hover-effect voor reset-link */
 .reset-voorkeuren-link:hover {
     color: #b0c4ff;
 }
@@ -184,7 +186,6 @@ footer {
     box-sizing: border-box;
     overflow: hidden;
 }
-
 
 /* 🔹 Pop-up stijl */
 #policy-popup {
