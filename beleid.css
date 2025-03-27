@@ -116,7 +116,7 @@ h1 {
 }
 
 /* 📌 Footer algemeen */
-footer {
+.footer {
     background-color: #041d5c;
     color: white;
     text-align: center;
