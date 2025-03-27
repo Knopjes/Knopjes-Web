@@ -226,3 +226,28 @@ footer {
     pointer-events: none;
     /* Voorkomt klikken op andere elementen */
 }
+
+.reset-voorkeuren-container {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #041d5c;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.reset-voorkeuren-container button {
+    background-color: #041d5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reset-voorkeuren-container button:hover {
+    background-color: #063a96;
+}
+
