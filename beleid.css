@@ -115,24 +115,24 @@ h1 {
     padding: 5px 0;
 }
 
-/* Footer algemeen */
+/* 📌 Footer algemeen */
 footer {
     background-color: #041d5c;
-    /* Donkerblauwe achtergrond */
     color: white;
-    height: 60px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 80px 0; /* extra ruimte onderaan voor de reset-knop */
     font-size: 16px;
     position: relative;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* Links in de footer */
+/* 📌 Links in de footer */
 .footer-links {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .footer-links a {
@@ -144,15 +144,38 @@ footer {
 
 .footer-links a:hover {
     color: #b0c4ff;
-    /* Lichtere blauw bij hover */
 }
 
-/* Onderste zwarte balk - volledige breedte & onderaan */
+/* 📌 Resetknop sectie */
+.reset-voorkeuren-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #041d5c;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.reset-voorkeuren-container button {
+    background-color: #041d5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reset-voorkeuren-container button:hover {
+    background-color: #063a96;
+}
+
+/* 📌 Onderste zwarte balk */
 .footer-bottom {
     background-color: black;
     color: white;
     padding: 10px 20px;
-    /* Extra padding aan beide kanten */
     font-size: 14px;
     width: 100%;
     position: absolute;
@@ -162,10 +185,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    /* Zorgt ervoor dat de padding binnen de breedte blijft */
     overflow: hidden;
-    /* Voorkomt dat tekst buiten de balk komt */
 }
+
 
 /* 🔹 Pop-up stijl */
 #policy-popup {
@@ -226,28 +248,3 @@ footer {
     pointer-events: none;
     /* Voorkomt klikken op andere elementen */
 }
-
-.reset-voorkeuren-container {
-    text-align: center;
-    margin-top: 60px;
-    padding: 20px;
-    background-color: #f4f4f4;
-    color: #041d5c;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-.reset-voorkeuren-container button {
-    background-color: #041d5c;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.reset-voorkeuren-container button:hover {
-    background-color: #063a96;
-}
-
