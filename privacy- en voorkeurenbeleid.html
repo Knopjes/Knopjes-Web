@@ -119,8 +119,7 @@
         <p>Bedankt voor je vertrouwen in <b>Knopjes web</b>! 🎵🚀</p>
     </div>
 
-
-    <footer>
+<footer>
     <div class="footer-links">
         <a href="auteursrechten.html">Auteursrechten & Licenties Beleid</a>
         <a href="privacy- en voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a>
@@ -128,11 +127,8 @@
         <a href="contact.html">Contact</a>
     </div>
 
-    <!-- 🔄 Reset voorkeuren knop -->
-    <div class="reset-voorkeuren-container">
-        <p>Wil je je voorkeuren wissen? Klik dan hieronder:</p>
-        <button onclick="resetVoorkeuren()">Reset voorkeuren</button>
-    </div>
+    <!-- 🔁 Nieuwe regel met reset-link -->
+    <p class="reset-voorkeuren-link" onclick="resetVoorkeuren()">Voorkeuren wissen</p>
 
     <div class="footer-bottom">
         <span>© 2025 Knopjes web</span>
@@ -141,15 +137,12 @@
 
     <script>
         function resetVoorkeuren() {
-            localStorage.clear(); // wist alles
+            localStorage.clear();
             alert("Je voorkeuren zijn gewist.");
-            location.reload(); // herlaadt de pagina
+            location.reload();
         }
     </script>
 </footer>
-
-
-
 </body>
 
 </html>
