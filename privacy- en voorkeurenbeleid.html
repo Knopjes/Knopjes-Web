@@ -121,17 +121,32 @@
 
 
     <footer>
-        <div class="footer-links">
-            <a href="auteursrechten.html">Auteursrechten & Licenties Beleid</a>
-            <a href="privacy- en voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a>
-            <a href="privacybeleid.html">Privacybeleid</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="footer-bottom">
-            <span>© 2025 Knopjes web</span>
-            <span>Design by Knopjes</span>
-        </div>
-    </footer>
+    <div class="footer-links">
+        <a href="auteursrechten.html">Auteursrechten & Licenties Beleid</a>
+        <a href="privacy- en voorkeurenbeleid.html">Privacy- en Voorkeurenbeleid</a>
+        <a href="privacybeleid.html">Privacybeleid</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-bottom">
+        <span>© 2025 Knopjes web</span>
+        <span>Design by Knopjes</span>
+    </div>
+
+    <!-- 🔄 Reset voorkeuren knop -->
+    <div class="reset-voorkeuren-container">
+        <p>Wil je je voorkeuren wissen? Klik dan hieronder:</p>
+        <button onclick="resetVoorkeuren()">Reset voorkeuren</button>
+    </div>
+
+    <script>
+        function resetVoorkeuren() {
+            localStorage.clear(); // wist alles
+            alert("Je voorkeuren zijn gewist.");
+            location.reload(); // herlaadt de pagina
+        }
+    </script>
+</footer>
+
 
 </body>
 
