@@ -120,7 +120,7 @@ h1 {
     background-color: #041d5c;
     color: white;
     text-align: center;
-    padding: 20px 0 100px 0; /* genoeg ruimte boven zwarte balk */
+    padding: 15px 0 100px 0; /* ⬅️ Pas '15px' aan om hoogte blauwe balk te wijzigen */
     font-size: 16px;
     position: relative;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -139,11 +139,7 @@ h1 {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: #b0c4ff;
+    cursor: pointer; /* 👆 Handje als cursor */
 }
 
 /* 🔁 Resetlink stijl */
@@ -151,13 +147,9 @@ h1 {
     margin-top: 5px;
     font-size: 14px;
     color: white;
-    cursor: pointer;
+    cursor: pointer; /* 👆 Handje als cursor */
+    font-weight: bold;
     text-decoration: underline;
-}
-
-/* 🖱️ Hover effect voor resetlink */
-.reset-voorkeuren-link:hover {
-    color: #b0c4ff;
 }
 
 /* 📌 Onderste zwarte balk */
@@ -176,6 +168,7 @@ h1 {
     box-sizing: border-box;
     overflow: hidden;
 }
+
 
 /* 🔹 Pop-up stijl */
 #policy-popup {
