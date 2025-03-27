@@ -120,9 +120,9 @@ footer {
     background-color: #041d5c;
     /* Donkerblauwe achtergrond */
     color: white;
-    height: 60px;
+    height: 120px;
     text-align: center;
-    padding: 20px;
+    padding: 80px;
     font-size: 16px;
     position: relative;
 }
