@@ -1,4 +1,4 @@
-/* Algemene stijl */
+e/* Algemene stijl */
 body {
     margin: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -120,9 +120,8 @@ footer {
     background-color: #041d5c;
     /* Donkerblauwe achtergrond */
     color: white;
-    height: 120px;
     text-align: center;
-    padding: 80px;
+    padding: 30px 20px; /* ↑ boven/onder & ← rechts/links */
     font-size: 16px;
     position: relative;
 }
