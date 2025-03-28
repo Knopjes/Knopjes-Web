@@ -1,5 +1,5 @@
 /* Algemene stijl */
-.body {
+body {
     margin: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: white;
@@ -8,7 +8,7 @@
 }
 
 /* Navigatiebalk */
-.nav {
+nav {
     background-color: #041d5c;
     padding: 10px;
     display: flex;
@@ -85,7 +85,7 @@
 }
 
 /* Hoofdtitel */
-.h1 {
+h1 {
     margin-top: 30px;
     font-size: 28px;
     font-weight: bold;
@@ -116,15 +116,16 @@
 }
 
 /* Footer algemeen */
-.footer {
+footer {
     background-color: #041d5c;
+    /* Donkerblauwe achtergrond */
     color: white;
+    height: 60px;
     text-align: center;
-    padding: 80px 40px; /* Hoger maken */
+    padding: 20px;
     font-size: 16px;
     position: relative;
 }
-
 
 /* Links in de footer */
 .footer-links {
@@ -139,8 +140,6 @@
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
-    cursor: pointer;
-
 }
 
 .footer-links a:hover {
@@ -148,19 +147,24 @@
     /* Lichtere blauw bij hover */
 }
 
+/* Onderste zwarte balk - volledige breedte & onderaan */
 .footer-bottom {
     background-color: black;
     color: white;
     padding: 10px 20px;
+    /* Extra padding aan beide kanten */
     font-size: 14px;
     width: 100%;
-    /* Verwijder deze: */
-    /* position: absolute; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    /* Zorgt ervoor dat de padding binnen de breedte blijft */
     overflow: hidden;
+    /* Voorkomt dat tekst buiten de balk komt */
 }
 
 /* 🔹 Pop-up stijl */
