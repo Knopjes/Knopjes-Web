@@ -120,7 +120,7 @@ footer {
     background-color: #041d5c;
     color: white;
     text-align: center;
-    padding: 80px 20px 10px 20px; /* top, rechts, onder, links */
+    padding: 30px 20px 80px 20px; /* top, rechts, onder, links */
     font-size: 16px;
     position: relative;
     font-family: "Comic Sans MS", cursive, sans-serif;
