@@ -115,54 +115,100 @@ h1 {
     padding: 5px 0;
 }
 
-/* Footer algemeen */
+/* 📌 Footer container */
 .footer {
     background-color: #041d5c;
     color: white;
     text-align: center;
-    padding: 80px 40px; /* Hoger maken */
+    padding: 40px 20px 80px 20px; /* ↑ ruimte boven (40px), onder (80px) */
     font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     position: relative;
 }
 
-
-/* Links in de footer */
+/* 📌 Linkjes bovenaan in de footer */
 .footer-links {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
     margin-bottom: 10px;
 }
 
-.footer-links a {
+.footer-links a,
+.footer-links span.reset-link {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
     cursor: pointer;
-
+    transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.footer-links span.reset-link:hover {
     color: #b0c4ff;
-    /* Lichtere blauw bij hover */
 }
 
+/* 📌 Onderste zwarte balk */
 .footer-bottom {
     background-color: black;
     color: white;
     padding: 10px 20px;
     font-size: 14px;
     width: 100%;
-    /* Verwijder deze: */
-    /* position: absolute; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    overflow: hidden;
+}
+/* 📌 Footer container */
+.footer {
+    background-color: #041d5c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 80px 20px; /* ↑ ruimte boven (40px), onder (80px) */
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: relative;
 }
 
+/* 📌 Linkjes bovenaan in de footer */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-links span.reset-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-links span.reset-link:hover {
+    color: #b0c4ff;
+}
+
+/* 📌 Onderste zwarte balk */
+.footer-bottom {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
 
 
 /* 🔹 Pop-up stijl */
