@@ -1,5 +1,5 @@
 /* Algemene stijl */
-body {
+.body {
     margin: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: white;
@@ -8,7 +8,7 @@ body {
 }
 
 /* Navigatiebalk */
-nav {
+.nav {
     background-color: #041d5c;
     padding: 10px;
     display: flex;
