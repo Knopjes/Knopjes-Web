@@ -118,13 +118,13 @@ h1 {
 /* Footer algemeen */
 footer {
     background-color: #041d5c;
-    /* Donkerblauwe achtergrond */
     color: white;
     text-align: center;
-    padding: 30px 60px; /* ↑ boven/onder & ← rechts/links */
+    padding: 60px 20px; /* Hoger maken */
     font-size: 16px;
     position: relative;
 }
+
 
 /* Links in de footer */
 .footer-links {
@@ -148,25 +148,21 @@ footer {
     /* Lichtere blauw bij hover */
 }
 
-/* Onderste zwarte balk - volledige breedte & onderaan */
 .footer-bottom {
     background-color: black;
     color: white;
     padding: 10px 20px;
-    /* Extra padding aan beide kanten */
     font-size: 14px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    /* Verwijder deze: */
+    /* position: absolute; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    /* Zorgt ervoor dat de padding binnen de breedte blijft */
     overflow: hidden;
-    /* Voorkomt dat tekst buiten de balk komt */
 }
+
 
 
 /* 🔹 Pop-up stijl */
