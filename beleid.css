@@ -1,5 +1,5 @@
-e/* Algemene stijl */
-body {
+/* Algemene stijl */
+.body {
     margin: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
     background-color: white;
@@ -8,7 +8,7 @@ body {
 }
 
 /* Navigatiebalk */
-nav {
+.nav {
     background-color: #041d5c;
     padding: 10px;
     display: flex;
@@ -85,7 +85,7 @@ nav {
 }
 
 /* Hoofdtitel */
-h1 {
+.h1 {
     margin-top: 30px;
     font-size: 28px;
     font-weight: bold;
@@ -115,29 +115,27 @@ h1 {
     padding: 5px 0;
 }
 
-/* 📌 Footer container */
-.footer {
+/* 📌 Footer algemeen */
+footer {
     background-color: #041d5c;
     color: white;
     text-align: center;
-    padding: 40px 20px 80px 20px; /* ↑ ruimte boven (40px), onder (80px) */
+    padding: 50px 20px 90px 20px; /* ruimte boven (50px) & onder (90px) */
     font-size: 16px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     position: relative;
 }
 
-/* 📌 Linkjes bovenaan in de footer */
+/* 📌 Linkgroepen in de footer */
 .footer-links {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 30px;
     flex-wrap: wrap;
     margin-bottom: 10px;
 }
 
-.footer-links a,
-.footer-links span.reset-link {
+.footer-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -145,12 +143,11 @@ h1 {
     transition: color 0.3s ease;
 }
 
-.footer-links a:hover,
-.footer-links span.reset-link:hover {
+.footer-links a:hover {
     color: #b0c4ff;
 }
 
-/* 📌 Onderste zwarte balk */
+/* 📌 Zwarte balk onderaan */
 .footer-bottom {
     background-color: black;
     color: white;
@@ -162,53 +159,7 @@ h1 {
     align-items: center;
     box-sizing: border-box;
 }
-/* 📌 Footer container */
-.footer {
-    background-color: #041d5c;
-    color: white;
-    text-align: center;
-    padding: 40px 20px 80px 20px; /* ↑ ruimte boven (40px), onder (80px) */
-    font-size: 16px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    position: relative;
-}
 
-/* 📌 Linkjes bovenaan in de footer */
-.footer-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-}
-
-.footer-links a,
-.footer-links span.reset-link {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover,
-.footer-links span.reset-link:hover {
-    color: #b0c4ff;
-}
-
-/* 📌 Onderste zwarte balk */
-.footer-bottom {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    font-size: 14px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-}
 
 
 /* 🔹 Pop-up stijl */
