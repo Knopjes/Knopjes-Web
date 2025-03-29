@@ -115,22 +115,22 @@ h1 {
     padding: 5px 0;
 }
 
-/* 📌 Footer algemeen */
+/* Footer algemeen */
 footer {
     background-color: #041d5c;
+    /* Donkerblauwe achtergrond */
     color: white;
+    height: 60px;
     text-align: center;
-    padding: 80px 20px 0px 20px; /* top, rechts, onder, links */
+    padding: 20px;
     font-size: 16px;
     position: relative;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* 📌 Links in de footer */
+/* Links in de footer */
 .footer-links {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 10px;
 }
@@ -140,25 +140,31 @@ footer {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
-    cursor: pointer;
-    font-size: 14px;
 }
 
 .footer-links a:hover {
     color: #b0c4ff;
+    /* Lichtere blauw bij hover */
 }
 
-/* 📌 Onderste zwarte balk */
+/* Onderste zwarte balk - volledige breedte & onderaan */
 .footer-bottom {
     background-color: black;
     color: white;
-    padding: 10px 0px;
+    padding: 10px 20px;
+    /* Extra padding aan beide kanten */
     font-size: 14px;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    /* Zorgt ervoor dat de padding binnen de breedte blijft */
+    overflow: hidden;
+    /* Voorkomt dat tekst buiten de balk komt */
 }
 
 /* 🔹 Pop-up stijl */
