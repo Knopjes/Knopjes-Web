@@ -24,7 +24,6 @@ nav {
     display: flex;
     gap: 20px;
     align-items: center;
-    /* Zorgt ervoor dat alles op dezelfde lijn staat */
 }
 
 .nav-links a {
@@ -54,14 +53,12 @@ nav {
     z-index: 100;
     border-radius: 5px;
     top: 100%;
-    /* Dropdown onder de navigatiebalk */
     left: 0;
 }
 
 /* Specifieke aanpassing voor het "Overig" dropdown-menu */
 .dropdown.overig .dropdown-content {
     left: -105px;
-    /* Verschuift het menu verder naar links */
 }
 
 /* Zorgt ervoor dat het menu verschijnt bij hover */
@@ -116,8 +113,8 @@ h1 {
 }
 
 /* Footer algemeen */
-footer {
-    background-color: #041d5c; /* Donkerblauwe achtergrond */
+.footer {
+    background-color: #041d5c; 
     color: white;
     height: 60px;
     text-align: center;
@@ -142,14 +139,14 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #b0c4ff; /* Lichtere blauw bij hover */
+    color: #b0c4ff; 
 }
 
 /* Onderste zwarte balk - volledige breedte & onderaan */
 .footer-bottom {
     background-color: black;
     color: white;
-    padding: 10px 20px; /* Extra padding aan beide kanten */
+    padding: 10px 20px; 
     font-size: 14px;
     width: 100%;
     position: absolute;
@@ -158,8 +155,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box; /* Zorgt ervoor dat de padding binnen de breedte blijft */
-    overflow: hidden; /* Voorkomt dat tekst buiten de balk komt */
+    box-sizing: border-box; 
+    overflow: hidden; 
 }
 
 /* 🔹 Pop-up stijl */
@@ -170,8 +167,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    /* Donkere overlay */
+    background: rgba(0, 0, 0, 0.7); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,12 +208,9 @@ footer {
 .blurred {
     filter: blur(5px);
     pointer-events: none;
-    /* Voorkomt klikken op andere elementen */
 }
 
 .blurred {
     filter: blur(8px);
-    /* Dit maakt de achtergrond wazig */
     pointer-events: none;
-    /* Voorkomt klikken op andere elementen */
 }
